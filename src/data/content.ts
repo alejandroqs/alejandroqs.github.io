@@ -87,14 +87,14 @@ export const content: Record<Mode, Content> = {
       ]
     },
     skills: {
-      title: "Technical Arsenal",
+      title: "Core Competencies",
       mobileWeb: {
-        title: "Frontend & Mobile Ecosystem",
-        items: ["React", "TypeScript", "Kotlin", "Flutter", "Redux", "Clean Architecture", "TDD", "SSR"]
+        title: "Enterprise Engineering",
+        items: ["React", "TypeScript", "Node.js", "AWS", "Docker", "System Design", "Microservices", "CI/CD"]
       },
       blockchain: {
-        title: "Backend & Cloud Ops",
-        items: ["Node.js", "AWS", "Docker", "GraphQL", "CI/CD", "PostgreSQL", "Firebase"]
+        title: "Emerging Technologies",
+        items: ["Blockchain Architecture", "Smart Contracts", "Solidity", "Web3 Integration", "Cryptography"]
       }
     },
     experience: {
@@ -179,14 +179,14 @@ export const content: Record<Mode, Content> = {
       ]
     },
     skills: {
-      title: "Cryptographic Primitives",
+      title: "Cryptographic Arsenal",
       mobileWeb: {
-        title: "DApp Interfaces & Mobile",
-        items: ["React", "Web3.js", "Ethers.js", "Flutter", "IPFS", "WalletConnect", "The Graph"]
+        title: "Full Stack Foundation",
+        items: ["React", "TypeScript", "Node.js", "Rust", "WASM", "Distributed Systems"]
       },
       blockchain: {
         title: "Protocol Engineering",
-        items: ["Solidity", "Hardhat", "EVM", "OpenZeppelin", "Gas Optimization", "Slither", "Merkle Trees"]
+        items: ["Solidity", "Yul / Assembly", "EVM Internals", "Gas Optimization", "zk-SNARKs", "DeFi Security"]
       }
     },
     experience: {

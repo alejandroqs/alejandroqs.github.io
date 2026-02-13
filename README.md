@@ -1,8 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Engineering Switch - Portfolio
+
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+## Project Overview
+
+"The Engineering Switch" is a high-performance Single Page Application (SPA) portfolio designed to showcase the duality of a modern software architect. The core feature is a **Global Toggle** mechanism that instantly transforms the entire application's content, styling, and tone between two distinct personas:
+
+1.  **Corporate Mode (Web2)**: A clean, minimalist, and professional interface emphasizing enterprise stability, scalability, and traditional full-stack engineering.
+2.  **Disruptor Mode (Web3)**: A cyberpunk-inspired, high-contrast interface highlighting blockchain innovation, smart contract security, and decentralized protocols.
+
+## Key Features
+
+-   **Dual-State Architecture**: Powered by a custom React Context (`EngineeringContext`) managing global state for theme and content.
+-   **Dynamic Content Engine**: All textual content is segregated in a type-safe `content.ts` file, ensuring instant, glitch-free text swaps without page reloads.
+-   **Advanced Animations**: Leveraging **Framer Motion** for complex layout transitions (`layout` prop), localized component reshuffling, and smooth orchestrations.
+-   **Theme System**: Custom **Tailwind CSS** configuration using CSS variables and data attributes to handle sophisticated color palette shifts (Slate/White vs. Neon/Dark).
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +40,21 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   `src/data/content.ts`: **The Source of Truth**. Contains all text for both modes.
+-   `src/context/EngineeringContext.tsx`: Manages the global toggle state.
+-   `src/components/sections/`: Major UI blocks (Hero, Skills, Projects, Experience).
+-   `tailwind.config.ts`: Defines the custom color palettes and animation utilities.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   **Framework**: Next.js 15+ (App Router)
+-   **Language**: TypeScript (Strict Mode)
+-   **Styling**: Tailwind CSS, PostCSS
+-   **Animation**: Framer Motion
+-   **Icons**: Lucide React
