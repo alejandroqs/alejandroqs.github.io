@@ -10,7 +10,7 @@ export default function Experience() {
     const { data, mode } = useEngineering();
 
     return (
-        <section className="py-24 px-6 lg:px-20 max-w-7xl mx-auto">
+        <section id="experience" className="py-24 px-6 lg:px-20 max-w-7xl mx-auto">
             <h2 className={cn(
                 "text-4xl font-bold tracking-tight mb-16 text-center",
                 mode === "disruptor" ? "text-neon-purple text-glow font-mono" : "text-slate-900"

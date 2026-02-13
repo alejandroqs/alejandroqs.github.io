@@ -90,11 +90,11 @@ export const content: Record<Mode, Content> = {
       title: "Core Competencies",
       mobileWeb: {
         title: "Enterprise Engineering",
-        items: ["React", "TypeScript", "Node.js", "AWS", "Docker", "System Design", "Microservices", "CI/CD"]
+        items: ["React", "TypeScript", "Tailwind", "Node.js", "AWS", "Firebase", "Docker", "Redux", "Microservices", "CI/CD"]
       },
       blockchain: {
         title: "Emerging Technologies",
-        items: ["Blockchain Architecture", "Smart Contracts", "Solidity", "Web3 Integration", "Cryptography"]
+        items: ["Blockchain Architecture", "Smart Contracts", "Gas Optimization", "Solidity", "Web3 Integration", "Cryptography", "Merkle Trees", "DeFi Security"]
       }
     },
     experience: {
@@ -182,11 +182,11 @@ export const content: Record<Mode, Content> = {
       title: "Cryptographic Arsenal",
       mobileWeb: {
         title: "Full Stack Foundation",
-        items: ["React", "TypeScript", "Node.js", "Rust", "WASM", "Distributed Systems"]
+        items: ["React", "TypeScript", "Tailwind", "Node.js", "AWS", "Firebase", "Docker", "Redux", "Microservices", "CI/CD"]
       },
       blockchain: {
         title: "Protocol Engineering",
-        items: ["Solidity", "Yul / Assembly", "EVM Internals", "Gas Optimization", "zk-SNARKs", "DeFi Security"]
+        items: ["Blockchain Architecture", "Smart Contracts", "Gas Optimization", "Solidity", "Web3 Integration", "Cryptography", "Merkle Trees", "DeFi Security"]
       }
     },
     experience: {

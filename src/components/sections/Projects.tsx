@@ -24,7 +24,7 @@ export default function Projects() {
     };
 
     return (
-        <section className="py-24 px-6 lg:px-20 max-w-7xl mx-auto space-y-12">
+        <section id="projects" className="py-24 px-6 lg:px-20 max-w-7xl mx-auto space-y-12">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
                 <h2 className={cn(
                     "text-4xl font-bold tracking-tight",

@@ -41,6 +41,10 @@
 
 /* Base Styles */
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   :root {
     /* Corporate Light Mode Defaults */
     --background: #ffffff;

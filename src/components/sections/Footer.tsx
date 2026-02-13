@@ -9,7 +9,7 @@ export default function Footer() {
     const { data, mode } = useEngineering();
 
     return (
-        <footer className={cn(
+        <footer id="contact" className={cn(
             "border-t py-24 px-6 lg:px-20 text-center",
             mode === "disruptor"
                 ? "border-neon-purple/20 bg-slate-950 text-slate-400"

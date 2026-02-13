@@ -10,7 +10,7 @@ export default function Skills() {
     const { data, mode } = useEngineering();
 
     return (
-        <section className={cn(
+        <section id="skills" className={cn(
             "py-24 px-6 lg:px-20 relative overflow-hidden transition-colors duration-500",
             mode === "corporate" ? "bg-slate-50" : "bg-slate-950"
         )}>
