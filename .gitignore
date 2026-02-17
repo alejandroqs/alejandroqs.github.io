@@ -43,7 +43,7 @@ next-env.d.ts
 # Agents
 .gemini
 .openai
-.github
+.github/copilot-instructions.md
 .clinerules
 .cursorrules
 .windsurfrules
