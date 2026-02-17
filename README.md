@@ -1,4 +1,4 @@
-# The Engineering Switch - Portfolio
+# Alejandro Quesada - Portfolio
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-"The Engineering Switch" is a high-performance Single Page Application (SPA) portfolio designed to showcase the duality of a modern software architect. The core feature is a **Global Toggle** mechanism that instantly transforms the entire application's content, styling, and tone between two distinct personas:
+This portfolio is a high-performance Single Page Application (SPA) portfolio designed to showcase the duality of a modern software architect. The core feature is a **Global Toggle** mechanism that instantly transforms the entire application's content, styling, and tone between two distinct personas:
 
 1.  **Corporate Mode (Web2)**: A clean, minimalist, and professional interface emphasizing enterprise stability, scalability, and traditional full-stack engineering.
 2.  **Disruptor Mode (Web3)**: A cyberpunk-inspired, high-contrast interface highlighting blockchain innovation, smart contract security, and decentralized protocols.
