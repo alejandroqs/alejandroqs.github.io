@@ -139,7 +139,9 @@ export default function Hero() {
                     </motion.a>
 
                     <motion.a
-                        href={mode === "corporate" ? "/cv/alejandro_quesada_cv_corp.pdf" : "/cv/alejandro_quesada_cv_web3.pdf"}
+                        href={mode === "corporate"
+                            ? `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/alejandro_quesada_cv_corp.pdf`
+                            : `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/cv/alejandro_quesada_cv_web3.pdf`}
                         download={mode === "corporate" ? "Alejandro_Quesada_FullStack_CV.pdf" : "Alejandro_Quesada_Web3_Architect_CV.pdf"}
                         target="_blank"
                         rel="noopener noreferrer"
